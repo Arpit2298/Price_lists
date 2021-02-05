@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: #f2f4f9;
+}
+
+.bg1 {
+    color: crimson;
+    border: 2px solid crimson;
+}
+
+.bg2 {
+    background-color: crimson;
+    color: white;
+}
+
+.padding {
+    margin: 0 50px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1d2943;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1d2943;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: aquamarine; */
+}
+
+.List {
+    width: 30%;
+    height: 700px;
+    background-color: white;
+    border-radius: 5px 5px;
+    border: 1px solid gray;
+    float: left;
+    transition: 0.5s;
+    color: #1d2943;
+}
+
+.List:hover {
+    transform: translatey(30px);
+}
+
+.List-head {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    /* background-color: coral; */
+}
+
+.List-head p {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.List_content {
+    height: 90%;
+}
+
+.List_content h3 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.List_content p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.List_content h4 {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.List_content span {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.List_content h6 {
+    width: 70%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    margin-left: 45px;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.List_content img {
+    width: 120px;
+    position: relative;
+    left: 100px;
+    top: 15px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    border: 2px solid crimson;
+    margin: 5px 35px;
+}
+
+.btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+#bt:hover {
+    background-color: steelblue;
+    border: 2px solid steelblue;
+}
+
+.List_content li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px 0px;
+    text-align: left;
+}
